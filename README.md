@@ -1,9 +1,6 @@
 # Unconfirmed Bitcoin Transaction Adjustment Tool
 
-![](https://img.shields.io/github/license/pyzhyk/btc-tx-adjustment-tool)
-![](https://img.shields.io/badge/version-beta-blue)
 
-[https:/pyzhyk.github.io/btc-tx-adjustment-tool](https://pyzhyk.github.io/btc-tx-adjustment-tool)
 
 ## About
 Q: **What can this tool do?**
