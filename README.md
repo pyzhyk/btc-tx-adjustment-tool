@@ -29,5 +29,5 @@ Tools and services used on this page
 - [BlockChain.info](https://blockchain.info) — Bitcoin price
 - [BlockCypher.com](https://blockcypher.com) — Address and transaction info
 - [BlockStream.info](https://blockstream.info) — Address and transaction info
-- [explorer.btc21.org](https://explorer.btc21.org) — Bitcoin explorer
+- [bitcoinexplorer.org](https://bitcoinexplorer.org) — Bitcoin explorer
 
