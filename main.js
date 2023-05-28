@@ -91,7 +91,7 @@ function fetchTXs() {
         document.getElementById(
                 "unconfirmedTXsTableDiv"
             ).innerHTML =
-            '<h3>Unconfirmed transactions</h3><a href="https://explorer.btc21.org/address/' +
+            '<h3>Unconfirmed transactions</h3><a href="https://bitcoinexplorer.org/address/' +
             redeemAddr + '">' +
             redeemAddr + "</a></code>";
         for (var e =
@@ -157,7 +157,7 @@ function handleUnconfirmedTXsRadioChange(
     var t = document.getElementById(
         "unconfirmedTXProperties");
     t.innerHTML =
-        '<h3>Transaction info</h3> <a href="https://explorer.btc21.org/tx/' +
+        '<h3>Transaction info</h3> <a href="https://bitcoinexplorer.org/tx/' +
         TXToAdjust + '">' + TXToAdjust +
         "</a></code>", t.innerHTML +=
         '<table id="unconfirmedTXPropertiesTable" class="table table-sm"><tbody><tr><td>Input addresses</td><td><ul><div id="inputsList"></div></ul></td></tr> <tr><td>Output addresses</td><td><ul><div id="outputsList"></div></ul></td></tr> <tr><td>Fee, BTC</td><td><div id="feeField"></div></td></tr> <tr><td>Fee per byte, sat</td><td><div id="feePerByteField"></div></td></tr> <tr><td>Priority <span data-toggle="tooltip" title="Probability that the transaction will be added to the next block. The lower the priority of this transaction, the more chances you have to outpace it.">?</span></td><td><div id="priorityField"></div></td></tr></tbody></table>';
@@ -165,7 +165,7 @@ function handleUnconfirmedTXsRadioChange(
         .length; n++) document
         .getElementById("inputsList")
         .innerHTML +=
-        '<li><a href="https://explorer.btc21.org/address/' +
+        '<li><a href="https://bitcoinexplorer.org/address/' +
         TXInfo.inputs[n].addresses +
         '">' + TXInfo.inputs[n]
         .addresses + "</a></li>";
@@ -173,7 +173,7 @@ function handleUnconfirmedTXsRadioChange(
         .length; n++) document
         .getElementById("outputsList")
         .innerHTML +=
-        '<li><a href="https://explorer.btc21.org/address/' +
+        '<li><a href="https://bitcoinexplorer.org/address/' +
         TXInfo.outputs[n].addresses +
         '">' + TXInfo.outputs[n]
         .addresses + "</a></li>";
